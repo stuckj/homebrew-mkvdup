@@ -11,27 +11,27 @@ class MkvdupCanary < Formula
   desc "Storage deduplication tool for MKV files (canary/pre-release)"
   homepage "https://github.com/stuckj/mkvdup"
   license "MIT"
-  version "1.0.0-canary.2"
+  version "1.0.0-canary.3"
 
   on_macos do
     on_arm do
-      url "https://github.com/stuckj/mkvdup/releases/download/v1.0.0-canary.2/mkvdup-canary_darwin_arm64.tar.gz"
-      sha256 "2adc49d5c0031a899ab9580cb38cdae47e5b797564be36164886b5e74df79c7f"
+      url "https://github.com/stuckj/mkvdup/releases/download/v1.0.0-canary.3/mkvdup-canary_darwin_arm64.tar.gz"
+      sha256 "f7b0cb695be491cf5634e83696b0572ed48f86ce236230d69275901c2addc099"
     end
     on_intel do
-      url "https://github.com/stuckj/mkvdup/releases/download/v1.0.0-canary.2/mkvdup-canary_darwin_amd64.tar.gz"
-      sha256 "9a543cf4391fe7d84f1a573247c71076579b2854abbfa363d9c0e069d1069b2a"
+      url "https://github.com/stuckj/mkvdup/releases/download/v1.0.0-canary.3/mkvdup-canary_darwin_amd64.tar.gz"
+      sha256 "87d07ae7ae1b0720cfd29e1892c2ebc4e826b4f07ebcab3a54d30baa83b93a54"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/stuckj/mkvdup/releases/download/v1.0.0-canary.2/mkvdup-canary_linux_arm64.tar.gz"
-      sha256 "d3bb1be39813156d6e39edb92ca95a39699073d011dc1ecdbd49d1e01d49df7a"
+      url "https://github.com/stuckj/mkvdup/releases/download/v1.0.0-canary.3/mkvdup-canary_linux_arm64.tar.gz"
+      sha256 "82f9292d2423a456635526cee91a05e100fe0a0435231c9a705ede7dd349001f"
     end
     on_intel do
-      url "https://github.com/stuckj/mkvdup/releases/download/v1.0.0-canary.2/mkvdup-canary_linux_amd64.tar.gz"
-      sha256 "8221efb8a2bcc5db44c6cf3dba921eaa45d913780e28779a720029a5ecd3cd3c"
+      url "https://github.com/stuckj/mkvdup/releases/download/v1.0.0-canary.3/mkvdup-canary_linux_amd64.tar.gz"
+      sha256 "4696257efb100f793596be5c693c196797e159f4d07eea0f90d092c4c05388a3"
     end
   end
 
