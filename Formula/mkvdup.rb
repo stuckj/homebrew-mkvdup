@@ -9,27 +9,27 @@ class Mkvdup < Formula
   desc "Storage deduplication tool for MKV files and their source media"
   homepage "https://github.com/stuckj/mkvdup"
   license "MIT"
-  version "1.3.5"
+  version "1.4.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/stuckj/mkvdup/releases/download/v1.3.5/mkvdup_darwin_arm64.tar.gz"
-      sha256 "a45061b0732627cd6cea2b0052c68d4bf1794bb69ab9e7a10d2f9eef70a0fa8e"
+      url "https://github.com/stuckj/mkvdup/releases/download/v1.4.0/mkvdup_darwin_arm64.tar.gz"
+      sha256 "5ae47c3669d50ac49463f31b4668d601b0c5f7b637eff067b6adbf5dafbffa63"
     end
     on_intel do
-      url "https://github.com/stuckj/mkvdup/releases/download/v1.3.5/mkvdup_darwin_amd64.tar.gz"
-      sha256 "b01037ca9cfce052d20e1a548055947ad0d2610dd3b6f0df1d3f7df5aad25e61"
+      url "https://github.com/stuckj/mkvdup/releases/download/v1.4.0/mkvdup_darwin_amd64.tar.gz"
+      sha256 "663afc8a2277db0ac36ab99a63b9911ec1036bcee98da406add9c92e7211e7d4"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/stuckj/mkvdup/releases/download/v1.3.5/mkvdup_linux_arm64.tar.gz"
-      sha256 "a1e6991fa0307f1a7b335bc722ddc56b48df252e1bba5f831ac7c9b5b4eadc69"
+      url "https://github.com/stuckj/mkvdup/releases/download/v1.4.0/mkvdup_linux_arm64.tar.gz"
+      sha256 "2bea0f4b4320a1cf5ae7e83e8a668a41af801634e772a7164c9f1b9a17b73171"
     end
     on_intel do
-      url "https://github.com/stuckj/mkvdup/releases/download/v1.3.5/mkvdup_linux_amd64.tar.gz"
-      sha256 "d462c4ac9f4de5fed6765b4319c6cf4a46f35f842fa2d73f407252a2f03daa92"
+      url "https://github.com/stuckj/mkvdup/releases/download/v1.4.0/mkvdup_linux_amd64.tar.gz"
+      sha256 "d5885218075772c1b2ff092c943ed2ef8df065cd36332da44957ebd3bbf6537b"
     end
   end
 
